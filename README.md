@@ -6,7 +6,6 @@
 
 - [@GioGajishvili](https://github.com/GioGajishvili)
 
-
 ## Description
 FitPress is an app that allows us to easily work out from home.
 ## Instructions for use
