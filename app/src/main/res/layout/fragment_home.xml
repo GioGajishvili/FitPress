@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/godgio2">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to FitPress"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/righteous_regular"
+        android:layout_marginTop="100dp"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginLeft="20dp"
+        android:layout_width="400dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:lottie_rawRes="@raw/animation_true"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
+
+    <Button
+        android:id="@+id/gotoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:fontFamily="@font/righteous_regular"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

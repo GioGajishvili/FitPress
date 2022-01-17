@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f4f4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="single leg hip rotation"
+            android:fontFamily="@font/righteous_regular"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20X"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/righteous_regular"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/workout_legs2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunge Excercise"
+            android:fontFamily="@font/righteous_regular"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20X"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/righteous_regular"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/workout_legs3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Squat Kick"
+            android:fontFamily="@font/righteous_regular"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20X"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/righteous_regular"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/workout_legs1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frog press"
+            android:fontFamily="@font/righteous_regular"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12X"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/righteous_regular"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginBottom="65dp"
+            app:lottie_rawRes="@raw/workout_legs4"
+            />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
