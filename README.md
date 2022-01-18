@@ -10,7 +10,9 @@
 FitPress is an app that allows us to easily work out from home.
 ## Features
 - Registration
-- 
+- Reset Password (Recovery)
+- Different types of Workouts
+- Save your physical data
 ## Instructions for use
 The app is designed for the final exam in mobile apps.
 The instructions for use are simple, after registration your data will be transferred to your profile page.
